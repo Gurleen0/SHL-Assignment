@@ -11,6 +11,7 @@ import logging
 import sys
 import os
 import time
+from tabulate import tabulate
 
 logging.basicConfig(
     level=logging.INFO,
@@ -125,6 +126,20 @@ def scrape_all_shl_products():
     driver = None
     products = []
     base_url = "https://www.shl.com/products/product-catalog/"
+    output_file = "data/shl_catalog_all.csv"
+    existing_ids = set()
+    existing_df = None
+
+    # Step 1: Load existing data if file exists
+    if os.path.exists(output_file):
+        existing_df = pd.read_csv(output_file, dtype=str)
+        if 'id' in existing_df.columns:
+            existing_ids = set(existing_df['id'].astype(str))
+        else:
+            existing_ids = set()
+    else:
+        existing_ids = set()
+
     try:
         driver = setup_driver()
         page = 1
@@ -135,7 +150,14 @@ def scrape_all_shl_products():
             if not page_products:
                 logging.info(f"No products found on page {page}. Assuming end of catalog.")
                 break
-            products.extend(page_products)
+            # Step 2: Filter out products with IDs already in CSV
+            new_products = [prod for prod in page_products if str(prod['id']) not in existing_ids]
+            if not new_products:
+                logging.info(f"All products on page {page} already exist. Stopping incremental scrape.")
+                break
+            products.extend(new_products)
+            # Add new IDs to the set to avoid duplicates in the same run
+            existing_ids.update(str(prod['id']) for prod in new_products)
             try:
                 next_button = driver.find_element(By.CSS_SELECTOR, "li.pagination__item.-arrow.-next a")
                 if not next_button.is_displayed() or not next_button.is_enabled():
@@ -144,20 +166,27 @@ def scrape_all_shl_products():
                 time.sleep(2)
             except NoSuchElementException:
                 break
-        df = pd.DataFrame(products)
-        if not df.empty:
-            df = df.drop_duplicates(subset=["id"], keep='first')
-            df = df.sort_values(by=["page", "assessment_name"]).reset_index(drop=True)
-            df = df[['id', 'assessment_name', 'url', 'remote_testing', 'adaptive_irt_support', 'test_type']]
+
+        # Step 3: Combine with existing data and save
+        if products:
+            new_df = pd.DataFrame(products)
+            if existing_df is not None:
+                combined_df = pd.concat([existing_df, new_df], ignore_index=True)
+            else:
+                combined_df = new_df
+            combined_df = combined_df.drop_duplicates(subset=["id"], keep='first')
+            combined_df = combined_df.sort_values(by=["assessment_name"]).reset_index(drop=True)
+            combined_df = combined_df[['id', 'assessment_name', 'url', 'remote_testing', 'adaptive_irt_support', 'test_type']]
             os.makedirs("data", exist_ok=True)
-            output_file = "data/shl_catalog_all.csv"
-            df.to_csv(output_file, index=False)
-            logging.info(f"Successfully extracted {len(df)} products from {page} pages")
-            logging.info(f"Data saved to {output_file}")
-            return df
+            combined_df.to_csv(output_file, index=False)
+            logging.info(f"Successfully added {len(new_df)} new products. Total: {len(combined_df)}")
+            print("\nFirst few rows of the table (pandas DataFrame):")
+            print(combined_df.head())
+            print(tabulate(combined_df.head(), headers='keys', tablefmt='psql'))
+            return combined_df
         else:
-            logging.error("No products were scraped")
-            return None
+            logging.info("No new products found to add.")
+            return existing_df if existing_df is not None else None
     except Exception as e:
         logging.error(f"Scraping failed: {str(e)}")
         raise

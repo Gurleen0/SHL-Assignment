@@ -1,42 +1,513 @@
-Page,Assessment Name,URL,Remote Testing Support,Adaptive/IRT Support,Test Type
-1,Account Manager Solution,https://www.shl.com/products/product-catalog/view/account-manager-solution/,Yes,Yes,"C
-P
-A
-B"
-1,Administrative Professional - Short Form,https://www.shl.com/products/product-catalog/view/administrative-professional-short-form/,Yes,Yes,"A
-K
-P"
-1,Agency Manager Solution,https://www.shl.com/products/product-catalog/view/agency-manager-solution/,Yes,Yes,"A
-B
-P
-S"
-1,Apprentice + 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261/,Yes,No,"B
-P"
-1,Apprentice 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment/,Yes,No,"B
-P"
-1,Bank Administrative Assistant - Short Form,https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/,Yes,No,"A
-B
-K
-P"
-1,Bank Collections Agent - Short Form,https://www.shl.com/products/product-catalog/view/bank-collections-agent-short-form/,Yes,No,"A
-B
-P"
-1,Bank Operations Supervisor - Short Form,https://www.shl.com/products/product-catalog/view/bank-operations-supervisor-short-form/,Yes,Yes,"A
-B
-P
-S"
-1,Bilingual Spanish Reservation Agent Solution,https://www.shl.com/products/product-catalog/view/bilingual-spanish-reservation-agent-solution/,Yes,Yes,"B
-P
-S
-A"
-1,"Bookkeeping, Accounting, Auditing Clerk Short Form",https://www.shl.com/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/,Yes,Yes,"P
-S
-K
-B
-A"
-1,Branch Manager - Short Form,https://www.shl.com/products/product-catalog/view/branch-manager-short-form/,Yes,No,"A
-B
-P"
-1,Cashier Solution,https://www.shl.com/products/product-catalog/view/cashier-solution/,Yes,Yes,"B
-A
-P"
+id,assessment_name,url,remote_testing,adaptive_irt_support,test_type
+3827,.NET Framework 4.5,https://www.shl.com/products/product-catalog/view/net-framework-4-5/,True,True,K
+4094,.NET MVC (New),https://www.shl.com/products/product-catalog/view/net-mvc-new/,True,False,K
+4099,.NET MVVM (New),https://www.shl.com/products/product-catalog/view/net-mvvm-new/,True,False,K
+4018,.NET WCF (New),https://www.shl.com/products/product-catalog/view/net-wcf-new/,True,False,K
+4016,.NET WPF (New),https://www.shl.com/products/product-catalog/view/net-wpf-new/,True,False,K
+4165,.NET XAML (New),https://www.shl.com/products/product-catalog/view/net-xaml-new/,True,False,K
+4168,ADO.NET (New),https://www.shl.com/products/product-catalog/view/ado-net-new/,True,False,K
+57,Account Manager Solution,https://www.shl.com/products/product-catalog/view/account-manager-solution/,True,True,"A, B, C, P"
+4178,Accounts Payable (New),https://www.shl.com/products/product-catalog/view/accounts-payable-new/,True,False,K
+4187,Accounts Payable Simulation (New),https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/,True,False,S
+4179,Accounts Receivable (New),https://www.shl.com/products/product-catalog/view/accounts-receivable-new/,True,False,K
+4188,Accounts Receivable Simulation (New),https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new/,True,False,S
+144,Administrative Professional - Short Form,https://www.shl.com/products/product-catalog/view/administrative-professional-short-form/,True,True,"A, K, P"
+71,Agency Manager Solution,https://www.shl.com/products/product-catalog/view/agency-manager-solution/,True,True,"A, B, P, S"
+521,Apprentice + 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261/,True,False,"B, P"
+520,Apprentice 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment/,True,False,"B, P"
+41,Bank Administrative Assistant - Short Form,https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/,True,False,"A, B, K, P"
+31,Bank Collections Agent - Short Form,https://www.shl.com/products/product-catalog/view/bank-collections-agent-short-form/,True,False,"A, B, P"
+42,Bank Operations Supervisor - Short Form,https://www.shl.com/products/product-catalog/view/bank-operations-supervisor-short-form/,True,True,"A, B, P, S"
+102,Bilingual Spanish Reservation Agent Solution,https://www.shl.com/products/product-catalog/view/bilingual-spanish-reservation-agent-solution/,True,True,"A, B, P, S"
+83,"Bookkeeping, Accounting, Auditing Clerk Short Form",https://www.shl.com/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/,True,True,"A, B, K, P, S"
+30,Branch Manager - Short Form,https://www.shl.com/products/product-catalog/view/branch-manager-short-form/,True,False,"A, B, P"
+45,Cashier Solution,https://www.shl.com/products/product-catalog/view/cashier-solution/,True,True,"A, B, P"
+4302,Global Skills Development Report,https://www.shl.com/products/product-catalog/view/global-skills-development-report/,True,False,"A, B, C, D, E, P"
+4311,AI Skills,https://www.shl.com/products/product-catalog/view/ai-skills/,True,False,P
+4019,Adobe Experience Manager (New),https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/,True,False,K
+3778,Adobe Photoshop CC,https://www.shl.com/products/product-catalog/view/adobe-photoshop-cc/,True,True,K
+4069,Aeronautical Engineering (New),https://www.shl.com/products/product-catalog/view/aeronautical-engineering-new/,True,False,K
+4004,Aerospace Engineering (New),https://www.shl.com/products/product-catalog/view/aerospace-engineering-new/,True,False,K
+4223,Agile Software Development,https://www.shl.com/products/product-catalog/view/agile-software-development/,True,False,K
+4159,Agile Testing (New),https://www.shl.com/products/product-catalog/view/agile-testing-new/,True,False,K
+4028,Amazon Web Services (AWS) Development (New),https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/,True,False,K
+4160,Android Development (New),https://www.shl.com/products/product-catalog/view/android-development-new/,True,False,K
+4153,Angular 6 (New),https://www.shl.com/products/product-catalog/view/angular-6-new/,True,False,K
+4021,AngularJS (New),https://www.shl.com/products/product-catalog/view/angularjs-new/,True,False,K
+4030,Apache Hadoop (New),https://www.shl.com/products/product-catalog/view/apache-hadoop-new/,True,False,K
+74,Claims/Operations Supervisor Solution,https://www.shl.com/products/product-catalog/view/claimsoperations-supervisor-solution/,True,True,"A, B, P, S"
+527,Contact Center Customer Service + 8.0,https://www.shl.com/products/product-catalog/view/contact-center-customer-service-8-0/,True,False,"A, B, C, P, S"
+529,Contact Center Customer Service 8.0,https://www.shl.com/products/product-catalog/view/contact-center-customer-service-8-0-4269/,True,False,"B, C, P, S"
+58,Contact Center Manager - Short Form,https://www.shl.com/products/product-catalog/view/contact-center-manager-short-form/,True,True,"A, B, P, S"
+526,Contact Center Sales & Service + 8.0,https://www.shl.com/products/product-catalog/view/contact-center-sales-and-service-8-0/,True,False,"A, B, C, P, S"
+528,Contact Center Sales & Service 8.0,https://www.shl.com/products/product-catalog/view/contact-center-sales-and-service-8-0-4268/,True,False,"B, C, P, S"
+59,Contact Center Team Lead/Coach - Short Form,https://www.shl.com/products/product-catalog/view/contact-center-team-leadcoach-short-form/,True,True,"A, B, P, S"
+37,Contact Centre Agent Solution - UK,https://www.shl.com/products/product-catalog/view/contact-centre-agent-solution-uk/,True,False,"A, B, P, S"
+24,Customer Service - Short Form,https://www.shl.com/products/product-catalog/view/customer-service-short-form/,True,True,"A, B, P"
+209,Customer Service - Short Form - UK,https://www.shl.com/products/product-catalog/view/customer-service-short-form-uk/,True,True,"A, B, P"
+26,Customer Service with Sales - Short Form,https://www.shl.com/products/product-catalog/view/customer-service-with-sales-short-form/,True,True,"A, B, P"
+27,Director - Short Form,https://www.shl.com/products/product-catalog/view/director-short-form/,True,True,"A, B, P"
+4017,ASP .NET with C# (New),https://www.shl.com/products/product-catalog/view/asp-net-with-c-new/,True,False,K
+3786,ASP.NET 4.5,https://www.shl.com/products/product-catalog/view/asp-net-4-5/,True,True,K
+4073,Apache HBase (New),https://www.shl.com/products/product-catalog/view/apache-hbase-new/,True,False,K
+4011,Apache Hadoop Extensions (New),https://www.shl.com/products/product-catalog/view/apache-hadoop-extensions-new/,True,False,K
+4075,Apache Hive (New),https://www.shl.com/products/product-catalog/view/apache-hive-new/,True,False,K
+4022,Apache Kafka (New),https://www.shl.com/products/product-catalog/view/apache-kafka-new/,True,False,K
+4115,Apache Pig (New),https://www.shl.com/products/product-catalog/view/apache-pig-new/,True,False,K
+4023,Apache Spark (New),https://www.shl.com/products/product-catalog/view/apache-spark-new/,True,False,K
+4219,Assessment and Development Center Exercises,https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/,True,False,E
+3984,Automata (New),https://www.shl.com/products/product-catalog/view/automata-new/,True,False,S
+3980,Automata - Fix (New),https://www.shl.com/products/product-catalog/view/automata-fix-new/,True,False,S
+3981,Automata - SQL (New),https://www.shl.com/products/product-catalog/view/automata-sql-new/,True,False,S
+51,District/Regional Manager Solution,https://www.shl.com/products/product-catalog/view/districtregional-manager-solution/,True,True,"A, B, P"
+541,Entry Level Cashier 7.1 (Americas),https://www.shl.com/products/product-catalog/view/entry-level-cashier-7-1-%28americas%29/,True,False,"A, B, P"
+540,Entry Level Cashier 7.1 (International),https://www.shl.com/products/product-catalog/view/entry-level-cashier-7-1-%28international%29/,True,False,"A, B, P"
+524,Entry Level Customer Service 7.1 (Americas),https://www.shl.com/products/product-catalog/view/entry-level-customer-service-7-1-%28americas%29/,True,False,"C, P"
+512,Entry Level Customer Service 7.1 (International),https://www.shl.com/products/product-catalog/view/entry-level-customer-service-%28retail-and-cc%29-7-1/,True,False,"C, P"
+525,Entry Level Customer Service 7.1 (South Africa),https://www.shl.com/products/product-catalog/view/entry-level-customer-service-7-1-%28south-africa%29/,True,False,"C, P"
+513,Entry Level Sales Sift Out 7.1,https://www.shl.com/products/product-catalog/view/entry-level-sales-sift-out-7-1/,True,False,"B, C, P"
+536,Entry level Sales 7.1 (Americas),https://www.shl.com/products/product-catalog/view/entry-level-sales-7-1-%28americas%29/,True,False,"B, C, P"
+509,Entry level Sales 7.1 (International),https://www.shl.com/products/product-catalog/view/entry-level-sales-7-1/,True,False,"B, C, P"
+86,Event Sales Manager Solution,https://www.shl.com/products/product-catalog/view/event-sales-manager-solution/,True,True,"A, B, P, S"
+25,Executive - Short Form,https://www.shl.com/products/product-catalog/view/executive-short-form/,True,True,"A, B, P"
+32,Financial Professional - Short Form,https://www.shl.com/products/product-catalog/view/financial-professional-short-form/,True,False,"A, B, P"
+3982,Automata Data Science (New),https://www.shl.com/products/product-catalog/view/automata-data-science-new/,True,False,S
+3983,Automata Data Science Pro (New),https://www.shl.com/products/product-catalog/view/automata-data-science-pro-new/,True,False,S
+4222,Automata Front End,https://www.shl.com/products/product-catalog/view/automata-front-end/,True,False,S
+3985,Automata Pro (New),https://www.shl.com/products/product-catalog/view/automata-pro-new/,True,False,S
+4229,Automata Selenium,https://www.shl.com/products/product-catalog/view/automata-selenium/,True,False,S
+4026,Automation Anywhere RPA Development (New),https://www.shl.com/products/product-catalog/view/automation-anywhere-rpa-development-new/,True,False,K
+4025,Automotive Engineering (New),https://www.shl.com/products/product-catalog/view/automotive-engineering-new/,True,False,K
+3988,Basic Biology (New),https://www.shl.com/products/product-catalog/view/basic-biology-new/,True,False,K
+4206,Basic Computer Literacy (Windows 10) (New),https://www.shl.com/products/product-catalog/view/basic-computer-literacy-windows-10-new/,True,False,"K, S"
+4149,Basic Statistics (New),https://www.shl.com/products/product-catalog/view/basic-statistics-new/,True,False,K
+4161,Biochemistry (New),https://www.shl.com/products/product-catalog/view/biochemistry-new/,True,False,K
+4036,Biotech Lab Techniques (New),https://www.shl.com/products/product-catalog/view/biotech-lab-techniques-new/,True,False,K
+73,Financial Services Representative Solution,https://www.shl.com/products/product-catalog/view/financial-services-representative-solution/,True,False,"A, B, P"
+94,Front Desk Associate Solution,https://www.shl.com/products/product-catalog/view/front-desk-associate-solution/,True,True,"A, B, P"
+95,Gaming Associate Solution,https://www.shl.com/products/product-catalog/view/gaming-associate-solution/,True,True,"A, B, P, S"
+87,Gaming Manager Solution,https://www.shl.com/products/product-catalog/view/gaming-manager-solution/,True,True,"A, B, K, P, S"
+239,General Entry Level - All Industries 7.0 Solution,https://www.shl.com/products/product-catalog/view/general-entry-level-all-industries-7-0-solution/,True,False,B
+534,General Entry Level - All Industries 7.1 Solution,https://www.shl.com/products/product-catalog/view/general-entry-level-all-industries-7-1-solution/,True,False,B
+533,General Entry Level - All Industries 7.1(Americas),https://www.shl.com/products/product-catalog/view/general-entry-level-all-industries-7-1%28americas%29/,True,False,B
+251,General Entry Level – Data Entry 7.0 Solution,https://www.shl.com/products/product-catalog/view/general-entry-level-data-entry-7-0-solution/,True,False,"B, K"
+496,Graduate + 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/graduate-8-0-job-focused-assessment/,True,False,"A, B, P"
+494,Graduate 7.1 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/graduate-7-1-job-focused-assessment/,True,False,"B, C"
+497,Graduate 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/graduate-8-0-job-focused-assessment-4228/,True,False,"B, P"
+240,Guest Service Team 7.0 Solution,https://www.shl.com/products/product-catalog/view/guest-service-team-7-0-solution/,True,False,B
+4037,BizTalk (New),https://www.shl.com/products/product-catalog/view/biztalk-new/,True,False,K
+244,Business Communication (adaptive),https://www.shl.com/products/product-catalog/view/business-communication-adaptive/,True,True,K
+4038,C Programming (New),https://www.shl.com/products/product-catalog/view/c-programming-new/,True,False,K
+4039,C# Programming (New),https://www.shl.com/products/product-catalog/view/c-programming-new-4039/,True,False,K
+4122,C++ Programming (New),https://www.shl.com/products/product-catalog/view/c-programming-new-4122/,True,False,K
+4077,Cardiology and Diabetes Management (New),https://www.shl.com/products/product-catalog/view/cardiology-and-diabetes-management-new/,True,False,K
+4044,Ceramic Engineering (New),https://www.shl.com/products/product-catalog/view/ceramic-engineering-new/,True,False,K
+4012,Chemical Engineering (New),https://www.shl.com/products/product-catalog/view/chemical-engineering-new/,True,False,K
+4024,Cisco AppDynamics (New),https://www.shl.com/products/product-catalog/view/cisco-appdynamics-new/,True,False,K
+4150,Civil Engineering (New),https://www.shl.com/products/product-catalog/view/civil-engineering-new/,True,False,K
+4045,Cloud Computing (New),https://www.shl.com/products/product-catalog/view/cloud-computing-new/,True,False,K
+96,Guest Services Associate Solution,https://www.shl.com/products/product-catalog/view/guest-services-associate-solution/,True,True,"A, B, P, S"
+241,Healthcare Aide 7.0 Solution,https://www.shl.com/products/product-catalog/view/healthcare-aide-7-0-solution/,True,False,B
+65,Healthcare Call Center Agent Solution,https://www.shl.com/products/product-catalog/view/healthcare-call-center-agent-solution/,True,True,"A, B, P, S"
+66,Healthcare Service Associate Solution,https://www.shl.com/products/product-catalog/view/healthcare-service-associate-solution/,True,True,"A, B, P"
+67,Healthcare Support Specialist Solution,https://www.shl.com/products/product-catalog/view/healthcare-support-specialist-solution/,True,True,"A, B, P"
+68,Home Health Aide Solution,https://www.shl.com/products/product-catalog/view/home-health-aide-solution/,True,True,"A, B, P"
+88,Hospitality Manager Solution,https://www.shl.com/products/product-catalog/view/hospitality-manager-solution/,True,True,"A, B, K, P"
+89,Host Solution,https://www.shl.com/products/product-catalog/view/host-solution/,True,True,"B, P"
+242,Industrial - Entry Level 7.0 Solution,https://www.shl.com/products/product-catalog/view/industrial-entry-level-7-0-solution/,True,False,B
+516,Industrial - Entry Level 7.1 (Americas),https://www.shl.com/products/product-catalog/view/industrial-entry-level-7-1-%28americas%29/,True,False,B
+519,Industrial - Entry Level 7.1 (International),https://www.shl.com/products/product-catalog/view/industrial-entry-level-7-1-%28international%29/,True,False,B
+243,Industrial - Professional and Skilled 7.0 Solution,https://www.shl.com/products/product-catalog/view/industrial-professional-and-skilled-7-0-solution/,True,True,"A, B"
+4046,COBOL Programming (New),https://www.shl.com/products/product-catalog/view/cobol-programming-new/,True,False,K
+4052,CSS3 (New),https://www.shl.com/products/product-catalog/view/css3-new/,True,False,K
+4104,Computer Science (New),https://www.shl.com/products/product-catalog/view/computer-science-new/,True,False,K
+4189,Contact Center Call Simulation (New),https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/,True,False,S
+4296,Conversational Multichat Simulation,https://www.shl.com/products/product-catalog/view/conversational-multichat-simulation/,True,False,S
+4034,Core Java (Advanced Level) (New),https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/,True,False,K
+4032,Core Java (Entry Level) (New),https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/,True,False,K
+3458,Count Out The Money,https://www.shl.com/products/product-catalog/view/count-out-the-money/,True,True,"K, S"
+4050,Culinary Skills (New),https://www.shl.com/products/product-catalog/view/culinary-skills-new/,True,False,K
+3933,Customer Service Phone Simulation,https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/,True,False,"B, S"
+3931,Customer Service Phone Solution,https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/,True,False,"B, P, S"
+4053,Cyber Risk (New),https://www.shl.com/products/product-catalog/view/cyber-risk-new/,True,False,K
+515,Industrial - Semi-skilled 7.1 (Americas),https://www.shl.com/products/product-catalog/view/industrial-semi-skilled-7-1-%28americas%29/,True,False,B
+514,Industrial - Semi-skilled 7.1 (International),https://www.shl.com/products/product-catalog/view/industrial-semi-skilled-7-1-%28international%29/,True,False,B
+522,Industrial Professional and Skilled 7.1 (Americas),https://www.shl.com/products/product-catalog/view/industrial-professional-and-skilled-7-1-%28americas%29/,True,False,"A, B"
+523,Industrial Professional and Skilled 7.1 Solution,https://www.shl.com/products/product-catalog/view/industrial-professional-and-skilled-7-1-solution/,True,False,"A, B"
+138,Installation and Repair Technician Solution,https://www.shl.com/products/product-catalog/view/installation-and-repair-technician-solution/,True,True,"A, B, P, S"
+75,Insurance Account Manager Solution,https://www.shl.com/products/product-catalog/view/insurance-account-manager-solution/,True,True,"A, B, P, S"
+76,Insurance Administrative Assistant Solution,https://www.shl.com/products/product-catalog/view/insurance-administrative-assistant-solution/,True,True,"A, B, P, S"
+77,Insurance Agent Solution,https://www.shl.com/products/product-catalog/view/insurance-agent-solution/,True,True,"A, B, P"
+79,Insurance Director Solution,https://www.shl.com/products/product-catalog/view/insurance-director-solution/,True,True,"A, B, P"
+80,Insurance Sales Manager Solution,https://www.shl.com/products/product-catalog/view/insurance-sales-manager-solution/,True,True,"A, B, P, S"
+235,Manager + 7.0 Solution,https://www.shl.com/products/product-catalog/view/manager-7-0-solution-3955/,True,True,"A, B, C"
+84,Manager - Short Form,https://www.shl.com/products/product-catalog/view/manager-short-form/,True,True,"A, B, K, P, S"
+4186,Data Entry (New),https://www.shl.com/products/product-catalog/view/data-entry-new/,True,False,S
+778,Data Entry Alphanumeric Split Screen - US,https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/,True,False,K
+779,Data Entry Numeric Split Screen - US,https://www.shl.com/products/product-catalog/view/data-entry-numeric-split-screen-us/,True,False,K
+785,Data Entry Ten Key Split Screen,https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/,True,False,K
+4013,Data Science (New),https://www.shl.com/products/product-catalog/view/data-science-new/,True,False,K
+56,Data Warehousing Concepts,https://www.shl.com/products/product-catalog/view/data-warehousing-concepts/,True,True,K
+731,Dependability and Safety Instrument (DSI),https://www.shl.com/products/product-catalog/view/dependability-and-safety-instrument-dsi/,True,False,P
+4162,Dermatology (New),https://www.shl.com/products/product-catalog/view/dermatology-new/,True,False,K
+4101,Desktop Support (New),https://www.shl.com/products/product-catalog/view/desktop-support-new/,True,False,K
+4003,Digital Advertising (New),https://www.shl.com/products/product-catalog/view/digital-advertising-new/,True,False,K
+4221,Digital Readiness Development Report - IC,https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/,True,False,P
+4239,Digital Readiness Development Report - Manager,https://www.shl.com/products/product-catalog/view/digital-readiness-development-report-manager/,True,False,P
+505,Manager + 7.1 (Americas),https://www.shl.com/products/product-catalog/view/manager-7-1-solution-4242/,True,True,"B, C, P"
+531,Manager + 7.1 (International),https://www.shl.com/products/product-catalog/view/manager-7-1-%28international%29/,True,True,"B, C, P"
+234,Manager 7.0 Solution,https://www.shl.com/products/product-catalog/view/manager-7-0-solution/,True,False,"B, C"
+535,Manager 7.1 (Americas),https://www.shl.com/products/product-catalog/view/manager-7-1-%28americas%29/,True,False,"B, C, P"
+504,Manager 7.1 (International),https://www.shl.com/products/product-catalog/view/manager-7-1-solution/,True,False,"B, C, P"
+568,Manager 8.0 JFA,https://www.shl.com/products/product-catalog/view/manager-8-0-jfa/,True,False,"B, K, P"
+569,Manager 8.0+ JFA,https://www.shl.com/products/product-catalog/view/manager-8-0-jfa-4310/,True,False,"B, K, P"
+185,Manufacturing Production Team Member,https://www.shl.com/products/product-catalog/view/manufacturing-production-team-member/,True,False,"A, B"
+186,Manufacturing Skilled Maintenance Worker,https://www.shl.com/products/product-catalog/view/manufacturing-skilled-maintenance-worker/,True,False,"A, B"
+139,Network Engineer/Analyst Solution,https://www.shl.com/products/product-catalog/view/network-engineeranalyst-solution/,True,True,"A, B, K, P, S"
+70,Nurse Leader Solution,https://www.shl.com/products/product-catalog/view/nurse-leader-solution/,True,True,"A, B, P, S"
+69,Nurse Solution,https://www.shl.com/products/product-catalog/view/nurse-solution/,True,True,"A, B, P"
+1102,DSI v1.1 Interpretation Report,https://www.shl.com/products/product-catalog/view/dsi-v1-1-interpretation-report/,True,False,P
+4059,Docker (New),https://www.shl.com/products/product-catalog/view/docker-new/,True,False,K
+4060,Dojo (New),https://www.shl.com/products/product-catalog/view/dojo-new/,True,False,K
+4062,Drupal (New),https://www.shl.com/products/product-catalog/view/drupal-new/,True,False,K
+4148,Econometrics (New),https://www.shl.com/products/product-catalog/view/econometrics-new/,True,False,K
+4009,Economics (New),https://www.shl.com/products/product-catalog/view/economics-new/,True,False,K
+4031,Electrical Engineering (New),https://www.shl.com/products/product-catalog/view/electrical-engineering-new/,True,False,K
+4001,Electrical and Electronics Engineering (New),https://www.shl.com/products/product-catalog/view/electrical-and-electronics-engineering-new/,True,False,K
+4002,Electronics & Telecommunications Engineering (New),https://www.shl.com/products/product-catalog/view/electronics-and-telecommunications-engineering-new/,True,False,K
+4000,Electronics and Embedded Systems Engineering (New),https://www.shl.com/products/product-catalog/view/electronics-and-embedded-systems-engineering-new/,True,False,K
+4139,Electronics and Semiconductor Engineering (New),https://www.shl.com/products/product-catalog/view/electronics-and-semiconductor-engineering-new/,True,False,K
+4180,English Comprehension (New),https://www.shl.com/products/product-catalog/view/english-comprehension-new/,True,False,K
+61,Nursing Assistant Solution,https://www.shl.com/products/product-catalog/view/nursing-assistant-solution/,True,False,"A, B, P"
+40,Personal Banker - Short Form,https://www.shl.com/products/product-catalog/view/personal-banker-short-form/,True,False,"A, B, K, P, S"
+33,Phone Banker - Short Form,https://www.shl.com/products/product-catalog/view/phone-banker-short-form/,True,False,"A, B, P"
+90,Prep/Line Cook Solution,https://www.shl.com/products/product-catalog/view/prepline-cook-solution/,True,True,"A, B, P"
+238,Professional + 7.0 Solution,https://www.shl.com/products/product-catalog/view/professional-7-0-solution-3958/,True,True,"A, B, C"
+539,Professional + 7.1 (Americas),https://www.shl.com/products/product-catalog/view/professional-7-1-%28americas%29/,True,True,"B, C, P"
+507,Professional + 7.1 (International),https://www.shl.com/products/product-catalog/view/professional-7-1-solution/,True,True,"B, C, P"
+237,Professional 7.0 Solution,https://www.shl.com/products/product-catalog/view/professional-7-0-solution/,True,False,"B, C"
+510,Professional 7.1 (International),https://www.shl.com/products/product-catalog/view/professional-7-1-solution-4247/,True,False,"B, C"
+564,Professional 8.0 JFA,https://www.shl.com/products/product-catalog/view/professional-8-0-jfa/,True,False,"B, K, P"
+34,Professional/Individual Contributor - Short Form,https://www.shl.com/products/product-catalog/view/professionalindividual-contributor-short-form/,True,True,"A, B, P, S"
+85,Project Manager - Short Form,https://www.shl.com/products/product-catalog/view/project-manager-short-form/,True,True,"A, B, P, S"
+4065,ETL Testing (New),https://www.shl.com/products/product-catalog/view/etl-testing-new/,True,False,K
+4063,Enterprise Java Beans (New),https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/,True,False,K
+3856,Enterprise Leadership Report 1.0,https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/,True,False,P
+4287,Enterprise Leadership Report 2.0,https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0/,True,False,P
+3934,Entry Level Cashier Solution,https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/,True,False,"C, P"
+3939,Entry Level Customer Serv-Retail & Contact Center,https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/,True,False,"C, P"
+3935,Entry Level Customer Service (General) Solution,https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/,True,False,"C, P"
+3936,Entry Level Hotel Front Desk Solution,https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/,True,False,"C, P"
+3937,Entry Level Sales Solution,https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/,True,False,"C, P"
+3938,Entry Level Technical Support Solution,https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/,True,False,"C, P"
+743,Executive Scenarios,https://www.shl.com/products/product-catalog/view/executive-scenarios/,True,False,B
+3849,Executive Scenarios Narrative Report,https://www.shl.com/products/product-catalog/view/executive-scenarios-narrative-report/,True,False,B
+43,Proof Operator - Processing Specialist -Short Form,https://www.shl.com/products/product-catalog/view/proof-operator-processing-specialist-short-form/,True,False,S
+101,Reservation Agent Solution,https://www.shl.com/products/product-catalog/view/reservation-agent-solution/,True,True,"A, B, P, S"
+91,Restaurant Manager Solution,https://www.shl.com/products/product-catalog/view/restaurant-manager-solution/,True,True,"A, B, P, S"
+92,Restaurant Supervisor Solution,https://www.shl.com/products/product-catalog/view/restaurant-supervisor-solution/,True,True,"A, B, P"
+47,Retail Consultant Solution,https://www.shl.com/products/product-catalog/view/retail-consultant-solution/,True,True,"A, B, P"
+50,Retail Manager w/ Sales Solution,https://www.shl.com/products/product-catalog/view/retail-manager-w-sales-solution/,True,True,"A, B, P"
+44,Retail Sales Associate Solution,https://www.shl.com/products/product-catalog/view/retail-sales-associate-solution/,True,True,"A, B, P"
+82,Sales Director Solution,https://www.shl.com/products/product-catalog/view/sales-director-solution/,True,True,"A, B, P"
+140,Sales Engineer Solution,https://www.shl.com/products/product-catalog/view/sales-engineer-solution/,True,True,"A, B, K, P, S"
+29,Sales Manager Solution,https://www.shl.com/products/product-catalog/view/sales-manager-solution/,True,True,"A, B, P"
+236,Sales Professional 7.0 Solution,https://www.shl.com/products/product-catalog/view/sales-professional-7-0-solution/,True,False,"B, C"
+537,Sales Professional 7.1 (Americas),https://www.shl.com/products/product-catalog/view/sales-professional-7-1-%28americas%29/,True,False,"B, C"
+3899,Executive Scenarios Profile Report,https://www.shl.com/products/product-catalog/view/executive-scenarios-profile-report/,True,False,B
+4127,ExpressJS (New),https://www.shl.com/products/product-catalog/view/expressjs-new/,True,False,K
+380,Filing - Names (R1),https://www.shl.com/products/product-catalog/view/filing-names-r1/,True,False,K
+381,Filing - Numbers,https://www.shl.com/products/product-catalog/view/filing-numbers/,True,False,K
+3992,Financial Accounting (New),https://www.shl.com/products/product-catalog/view/financial-accounting-new/,True,False,K
+4083,Financial and Banking Services (New),https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/,True,False,K
+4067,Fire Engineering (New),https://www.shl.com/products/product-catalog/view/fire-engineering-new/,True,False,K
+382,Following Instructions v1 - UK (R1),https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/,True,False,K
+383,Following Instructions v1 - US (R2),https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/,True,False,K
+4071,Food Science (New),https://www.shl.com/products/product-catalog/view/food-science-new/,True,False,K
+4090,Food and Beverage Services (New),https://www.shl.com/products/product-catalog/view/food-and-beverage-services-new/,True,False,K
+4072,Front Office Management (New),https://www.shl.com/products/product-catalog/view/front-office-management-new/,True,False,K
+54,Sales Professional Solution,https://www.shl.com/products/product-catalog/view/sales-professional-solution/,True,True,"A, B, P"
+53,Sales Representative Solution,https://www.shl.com/products/product-catalog/view/sales-representative-solution/,True,True,"A, B, P"
+52,Sales Support Specialist Solution,https://www.shl.com/products/product-catalog/view/sales-support-specialist-solution/,True,True,"A, B, P"
+81,Senior Insurance Agent Solution,https://www.shl.com/products/product-catalog/view/senior-insurance-agent-solution/,True,False,"A, B, P"
+55,Senior Sales Professional Solution,https://www.shl.com/products/product-catalog/view/senior-sales-professional-solution/,True,True,"A, B, P"
+93,Server Solution,https://www.shl.com/products/product-catalog/view/server-solution/,True,True,"A, B, P"
+97,Service Associate Solution,https://www.shl.com/products/product-catalog/view/service-associate-solution/,True,True,"A, B, P"
+98,Service Supervisor Solution,https://www.shl.com/products/product-catalog/view/service-supervisor-solution/,True,True,"A, B, P"
+46,Stock Clerk Solution,https://www.shl.com/products/product-catalog/view/stock-clerk-solution/,True,False,"A, B, P"
+233,Store Manager 7.0 Solution,https://www.shl.com/products/product-catalog/view/store-manager-7-0-solution/,True,False,"B, C"
+530,Store Manager 7.1 (Americas),https://www.shl.com/products/product-catalog/view/store-manager-7-1-%28americas%29/,True,False,"B, C"
+4113,Fundamentals of Chemistry (New),https://www.shl.com/products/product-catalog/view/fundamentals-of-chemistry-new/,True,False,K
+4043,Fundamentals of Physics (New),https://www.shl.com/products/product-catalog/view/fundamentals-of-physics-new/,True,False,K
+4078,GIT (New),https://www.shl.com/products/product-catalog/view/git-new/,True,False,K
+4048,General Diseases (New),https://www.shl.com/products/product-catalog/view/general-diseases-new/,True,False,K
+4125,Geoinformatics Engineering (New),https://www.shl.com/products/product-catalog/view/geoinformatics-engineering-new/,True,False,K
+4066,Geoscience Engineering (New),https://www.shl.com/products/product-catalog/view/geoscience-engineering-new/,True,False,K
+4301,Global Skills Assessment,https://www.shl.com/products/product-catalog/view/global-skills-assessment/,True,False,"C, K"
+741,Graduate Scenarios,https://www.shl.com/products/product-catalog/view/graduate-scenarios/,True,False,B
+3900,Graduate Scenarios Narrative Report,https://www.shl.com/products/product-catalog/view/graduate-scenarios-narrative-report/,True,False,B
+3901,Graduate Scenarios Profile Report,https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/,True,False,B
+331,HIPAA (Security),https://www.shl.com/products/product-catalog/view/hipaa-security/,True,True,K
+4074,Hibernate (New),https://www.shl.com/products/product-catalog/view/hibernate-new/,True,False,K
+532,Store Manager 7.1 (International),https://www.shl.com/products/product-catalog/view/store-manager-7-1-%28international%29/,True,False,"B, C"
+48,Store Manager Solution,https://www.shl.com/products/product-catalog/view/store-manager-solution/,True,True,"A, B, P"
+38,Supervisor - Short Form,https://www.shl.com/products/product-catalog/view/supervisor-short-form/,True,True,S
+232,Supervisor 7.0 Solution,https://www.shl.com/products/product-catalog/view/supervisor-7-0-solution/,True,False,"B, C"
+518,Supervisor 7.1 (Americas),https://www.shl.com/products/product-catalog/view/supervisor-7-1-%28americas%29/,True,False,"B, C, P"
+517,Supervisor 7.1 (International),https://www.shl.com/products/product-catalog/view/supervisor-7-1-%28international%29/,True,False,"B, C, P"
+99,Support Associate Solution,https://www.shl.com/products/product-catalog/view/support-associate-solution/,True,True,"A, B, P"
+100,Support Supervisor Solution,https://www.shl.com/products/product-catalog/view/support-supervisor-solution/,True,True,"A, B, P, S"
+49,Technical Sales Associate Solution,https://www.shl.com/products/product-catalog/view/technical-sales-associate-solution/,True,False,"A, B, P"
+62,Technician/Technologist Solution,https://www.shl.com/products/product-catalog/view/techniciantechnologist-solution/,True,True,"A, B, P"
+492,Technology Professional 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/technology-professional-8-0-job-focused-assessment/,True,False,"C, P"
+63,Telenurse Solution,https://www.shl.com/products/product-catalog/view/telenurse-solution/,True,True,"A, B, P"
+4080,HTML/CSS (New),https://www.shl.com/products/product-catalog/view/htmlcss-new/,True,False,K
+4081,HTML5 (New),https://www.shl.com/products/product-catalog/view/html5-new/,True,False,K
+3845,HiPo Assessment Report 1.0,https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/,True,False,"C, P"
+4284,HiPo Assessment Report 2.0,https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/,True,False,"C, P"
+4285,HiPo Unlocking Potential Report 2.0,https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/,True,False,C
+4076,Housekeeping (New),https://www.shl.com/products/product-catalog/view/housekeeping-new/,True,False,K
+3999,Human Resources (New),https://www.shl.com/products/product-catalog/view/human-resources-new/,True,False,K
+4169,IBM DataStage (New),https://www.shl.com/products/product-catalog/view/ibm-datastage-new/,True,False,K
+4155,IBM Sterling Order Management System (New),https://www.shl.com/products/product-catalog/view/ibm-sterling-order-management-system-new/,True,False,K
+4005,Industrial Engineering (New),https://www.shl.com/products/product-catalog/view/industrial-engineering-new/,True,False,K
+4054,Informatica (Architecture) (New),https://www.shl.com/products/product-catalog/view/informatica-architecture-new/,True,False,K
+4055,Informatica (Developer) (New),https://www.shl.com/products/product-catalog/view/informatica-developer-new/,True,False,K
+482,Teller 7.0,https://www.shl.com/products/product-catalog/view/teller-7-0/,True,True,"B, K, P, S"
+39,Teller with Sales - Short Form,https://www.shl.com/products/product-catalog/view/teller-with-sales-short-form/,True,False,"A, B, K, P, S"
+64,Transcriptionist Solution,https://www.shl.com/products/product-catalog/view/transcriptionist-solution/,True,True,"A, B, K, P"
+511,Workplace Safety - Individual 7.1 (Americas),https://www.shl.com/products/product-catalog/view/workplace-safety-individual-7-1-solution/,True,False,B
+245,Workplace Safety - Team 7.0 Solution,https://www.shl.com/products/product-catalog/view/workplace-safety-team-7-0-solution/,True,False,B
+538,Workplace Safety - Team 7.1 (Americas),https://www.shl.com/products/product-catalog/view/workplace-safety-team-7-1-%28americas%29/,True,False,"B, C, P"
+506,Workplace Safety - Team 7.1 (International),https://www.shl.com/products/product-catalog/view/workplace-safety-team-7-1-solution/,True,False,"B, C, P"
+195,Workplace Safety Solution,https://www.shl.com/products/product-catalog/view/workplace-safety-solution/,True,True,"B, P"
+4040,ITIL (IT Infrastructure Library) (New),https://www.shl.com/products/product-catalog/view/itil-it-infrastructure-library-new/,True,False,K
+4007,Instrumentation Engineering (New),https://www.shl.com/products/product-catalog/view/instrumentation-engineering-new/,True,False,K
+249,Interpersonal Communications,https://www.shl.com/products/product-catalog/view/interpersonal-communications/,True,True,K
+333,Interviewing and Hiring Concepts (U.S.),https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/,True,True,K
+4084,Java 8 (New),https://www.shl.com/products/product-catalog/view/java-8-new/,True,False,K
+4158,Java Design Patterns (New),https://www.shl.com/products/product-catalog/view/java-design-patterns-new/,True,False,K
+4056,Java Frameworks (New),https://www.shl.com/products/product-catalog/view/java-frameworks-new/,True,False,K
+3809,Java Platform Enterprise Edition 7 (Java EE 7),https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/,True,True,K
+4033,Java Web Services (New),https://www.shl.com/products/product-catalog/view/java-web-services-new/,True,False,K
+3989,JavaScript (New),https://www.shl.com/products/product-catalog/view/javascript-new/,True,False,K
+4102,iOS Development (New),https://www.shl.com/products/product-catalog/view/ios-development-new/,True,False,K
+4086,Jenkins (New),https://www.shl.com/products/product-catalog/view/jenkins-new/,True,False,K
+4085,Job Control Language (New),https://www.shl.com/products/product-catalog/view/job-control-language-new/,True,False,K
+4152,Kubernetes (New),https://www.shl.com/products/product-catalog/view/kubernetes-new/,True,False,K
+3990,Linux Administration (New),https://www.shl.com/products/product-catalog/view/linux-administration-new/,True,False,K
+4299,Linux Operating System,https://www.shl.com/products/product-catalog/view/linux-operating-system/,True,False,K
+205,Linux Programming (General),https://www.shl.com/products/product-catalog/view/linux-programming-general/,True,True,K
+4170,Load Runner (New),https://www.shl.com/products/product-catalog/view/load-runner-new/,True,False,K
+742,Management Scenarios,https://www.shl.com/products/product-catalog/view/management-scenarios/,True,False,B
+3903,Managerial Scenarios Candidate Report,https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/,True,False,B
+3902,Managerial Scenarios Narrative Report,https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/,True,False,B
+3904,Managerial Scenarios Profile Report,https://www.shl.com/products/product-catalog/view/managerial-scenarios-profile-report/,True,False,B
+4087,jQuery (New),https://www.shl.com/products/product-catalog/view/jquery-new/,True,False,K
+4157,Manual Testing (New),https://www.shl.com/products/product-catalog/view/manual-testing-new/,True,False,K
+4291,Manufac. & Indust. - Mechanical & Vigilance 8.0,https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/,True,False,"A, P"
+4293,Manufac. & Indust. - Safety & Dependability 8.0,https://www.shl.com/products/product-catalog/view/safety-and-dependability-focus-8-0/,True,False,P
+4295,Manufacturing & Industrial - Essential Focus 8.0,https://www.shl.com/products/product-catalog/view/essential-focus-8-0/,True,False,P
+4292,Manufacturing & Industrial - Mechanical Focus 8.0,https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/,True,False,"A, P"
+4294,Manufacturing & Industrial - Vigilance Focus 8.0,https://www.shl.com/products/product-catalog/view/vigilance-focus-8-0/,True,False,"A, P"
+4008,Marketing (New),https://www.shl.com/products/product-catalog/view/marketing-new/,True,False,K
+4089,Maven (New),https://www.shl.com/products/product-catalog/view/maven-new/,True,False,K
+4006,Mechanical Engineering (New),https://www.shl.com/products/product-catalog/view/mechanical-engineering-new/,True,False,K
+4176,Mechatronics Engineering (New),https://www.shl.com/products/product-catalog/view/mechatronics-engineering-new/,True,False,K
+4058,Medical Terminology (New),https://www.shl.com/products/product-catalog/view/medical-terminology-new/,True,False,K
+4119,Metallurgical Engineering (New),https://www.shl.com/products/product-catalog/view/metallurgical-engineering-new/,True,False,K
+3951,MFS 360 Enterprise Leadership Report,https://www.shl.com/products/product-catalog/view/mfs-360-enterprise-leadership-report/,True,False,D
+3950,MFS 360 UCF Group Report,https://www.shl.com/products/product-catalog/view/mfs-360-ucf-group-report/,True,False,D
+3949,MFS 360 UCF Performance Potential Dev Tips Report,https://www.shl.com/products/product-catalog/view/mfs-360-ucf-performance-potential-dev-tips-report/,True,False,D
+3948,MFS 360 UCF Standard Report,https://www.shl.com/products/product-catalog/view/mfs-360-ucf-standard-report/,True,False,D
+4027,Micro Focus Unified Functional Testing (New),https://www.shl.com/products/product-catalog/view/micro-focus-unified-functional-testing-new/,True,False,K
+4091,Microservices (New),https://www.shl.com/products/product-catalog/view/microservices-new/,True,False,K
+4092,Microsoft Dynamics Development (New),https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/,True,False,K
+4207,Microsoft Excel 365 (New),https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/,True,False,"K, S"
+4208,Microsoft Excel 365 - Essentials (New),https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/,True,False,"K, S"
+3785,Microsoft Outlook 2013 (adaptive),https://www.shl.com/products/product-catalog/view/microsoft-outlook-2013-adaptive/,True,True,K
+4212,Microsoft PowerPoint 365 - Essentials (New),https://www.shl.com/products/product-catalog/view/microsoft-powerpoint-365-essentials-new/,True,False,"K, S"
+3789,Microsoft SQL Server 2014 Programming,https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/,True,True,K
+1308,MQ Candidate Motivation Report,https://www.shl.com/products/product-catalog/view/mq-candidate-motivation-report/,True,False,P
+1306,MQ Employee Motivation Report,https://www.shl.com/products/product-catalog/view/mq-employee-motivation-report/,True,False,P
+1309,MQ Motivation Report Pack,https://www.shl.com/products/product-catalog/view/mq-motivation-report-pack/,True,False,P
+3807,Microsoft Windows Server 2012 Administration,https://www.shl.com/products/product-catalog/view/microsoft-windows-server-2012-administration/,True,True,K
+4210,Microsoft Word 365 (New),https://www.shl.com/products/product-catalog/view/microsoft-word-365-new/,True,False,"K, S"
+4211,Microsoft Word 365 - Essentials (New),https://www.shl.com/products/product-catalog/view/microsoft-word-365-essentials-new/,True,False,"K, S"
+4047,Mineral Engineering (New),https://www.shl.com/products/product-catalog/view/mineral-engineering-new/,True,False,K
+4093,Mining Engineering (New),https://www.shl.com/products/product-catalog/view/mining-engineering-new/,True,False,K
+4174,Mobility (New),https://www.shl.com/products/product-catalog/view/mobility-new/,True,False,K
+4096,Molecular Biology (New),https://www.shl.com/products/product-catalog/view/molecular-biology-new/,True,False,K
+4010,MongoDB (New),https://www.shl.com/products/product-catalog/view/mongodb-new/,True,False,K
+724,Motivation Questionnaire MQM5,https://www.shl.com/products/product-catalog/view/motivation-questionnaire-mqm5/,True,False,P
+1048,MQ Profile,https://www.shl.com/products/product-catalog/view/mq-profile/,True,False,P
+4015,MS Access (New),https://www.shl.com/products/product-catalog/view/ms-access-new/,True,False,K
+3993,MS Excel (New),https://www.shl.com/products/product-catalog/view/ms-excel-new/,True,False,K
+3995,MS Office Basic Computer Literacy (New),https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/,True,False,K
+4193,MS Office Basic Computer Literacy (Sim) (New),https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/,True,False,S
+4097,MS PowerPoint (New),https://www.shl.com/products/product-catalog/view/ms-powerpoint-new/,True,False,K
+3994,MS Word (New),https://www.shl.com/products/product-catalog/view/ms-word-new/,True,False,K
+4098,MuleSoft Development (New),https://www.shl.com/products/product-catalog/view/mulesoft-development-new/,True,False,K
+615,Multitasking Ability,https://www.shl.com/products/product-catalog/view/multitasking-ability/,True,False,"A, K, S"
+4100,Networking and Implementation (New),https://www.shl.com/products/product-catalog/view/networking-and-implementation-new/,True,False,K
+3997,Node.js (New),https://www.shl.com/products/product-catalog/view/node-js-new/,True,False,K
+4041,Nursing (New),https://www.shl.com/products/product-catalog/view/nursing-new/,True,False,K
+727,OPQ Candidate Plus Report,https://www.shl.com/products/product-catalog/view/opq-candidate-plus-report/,True,False,P
+4298,OPQ Candidate Report 2.0,https://www.shl.com/products/product-catalog/view/opq-candidate-report-2-0/,True,False,P
+748,OPQ Emotional Intelligence Report,https://www.shl.com/products/product-catalog/view/opq-emotional-intelligence-report/,True,False,P
+749,OPQ Leadership Report,https://www.shl.com/products/product-catalog/view/opq-leadership-report/,True,False,P
+754,OPQ MQ Sales Report,https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/,True,False,P
+750,OPQ Manager Plus Report,https://www.shl.com/products/product-catalog/view/opq-manager-plus-report/,True,False,P
+4300,OPQ Manager Plus Report 2.0,https://www.shl.com/products/product-catalog/view/opq-manager-plus-report-2-0/,True,False,P
+752,OPQ Maximising your Learning Report,https://www.shl.com/products/product-catalog/view/opq-maximising-your-learning-report/,True,False,P
+753,OPQ Premium Plus Report,https://www.shl.com/products/product-catalog/view/opq-premium-plus-report/,True,False,P
+4307,OPQ Premium Plus Report 2.0,https://www.shl.com/products/product-catalog/view/opq-premium-plus-report-2-0/,True,False,P
+720,Occupational Personality Questionnaire OPQ32r,https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/,True,False,P
+4116,Operations Management (New),https://www.shl.com/products/product-catalog/view/operations-management-new/,True,False,K
+1050,OPQ Profile Report,https://www.shl.com/products/product-catalog/view/opq-profile-report/,True,False,P
+1060,OPQ Team Impact Group Development Report,https://www.shl.com/products/product-catalog/view/opq-team-impact-group-development-report/,True,False,P
+1059,OPQ Team Impact Individual Development Report,https://www.shl.com/products/product-catalog/view/opq-team-impact-individual-development-report/,True,False,P
+1058,OPQ Team Impact Selection Report,https://www.shl.com/products/product-catalog/view/opq-team-impact-selection-report/,True,False,P
+1061,OPQ Team Types & Leadership Styles Profile,https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/,True,False,P
+756,OPQ Team Types and Leadership Styles Report,https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/,True,False,P
+757,OPQ UCF Development Action Planner Report 1.0,https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/,True,False,P
+4286,OPQ UCF Development Action Planner Report 2.0,https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report-2-0/,True,False,P
+758,OPQ Universal Competency Report 1.0,https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/,True,False,P
+4289,OPQ Universal Competency Report 2.0,https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/,True,False,P
+759,OPQ User Report,https://www.shl.com/products/product-catalog/view/opq-user-report/,True,False,"P, S"
+1067,OPQ User and Managers Report,https://www.shl.com/products/product-catalog/view/opq-user-and-managers-report/,True,False,P
+4106,Oracle DBA (Advanced Level) (New),https://www.shl.com/products/product-catalog/view/oracle-dba-advanced-level-new/,True,False,K
+4105,Oracle DBA (Entry Level) (New),https://www.shl.com/products/product-catalog/view/oracle-dba-entry-level-new/,True,False,K
+4145,Oracle PL/SQL (New),https://www.shl.com/products/product-catalog/view/oracle-plsql-new/,True,False,K
+4156,Oracle WebLogic Server (New),https://www.shl.com/products/product-catalog/view/oracle-weblogic-server-new/,True,False,K
+4154,Organic Chemistry (New),https://www.shl.com/products/product-catalog/view/organic-chemistry-new/,True,False,K
+4107,Paint Technology (New),https://www.shl.com/products/product-catalog/view/paint-technology-new/,True,False,K
+3998,Pediatrics (New),https://www.shl.com/products/product-catalog/view/pediatrics-new/,True,False,K
+4108,Pega Development (New),https://www.shl.com/products/product-catalog/view/pega-development-new/,True,False,K
+4109,Perl (New),https://www.shl.com/products/product-catalog/view/perl-new/,True,False,K
+4070,Petrochemical Engineering (New),https://www.shl.com/products/product-catalog/view/petrochemical-engineering-new/,True,False,K
+4110,Petroleum Engineering (New),https://www.shl.com/products/product-catalog/view/petroleum-engineering-new/,True,False,K
+4088,Pharmaceutical Analysis (New),https://www.shl.com/products/product-catalog/view/pharmaceutical-analysis-new/,True,False,K
+4103,PHP (New),https://www.shl.com/products/product-catalog/view/php-new/,True,False,K
+3746,PJM Development Report,https://www.shl.com/products/product-catalog/view/pjm-development-report/,True,False,"A, C, P"
+3484,PJM Selection Report,https://www.shl.com/products/product-catalog/view/pjm-selection-report/,True,False,"A, C, P"
+4114,Pharmaceutical Chemistry (New),https://www.shl.com/products/product-catalog/view/pharmaceutical-chemistry-new/,True,False,K
+4061,Pharmaceutical Science (New),https://www.shl.com/products/product-catalog/view/pharmaceutical-science-new/,True,False,K
+4111,Pharmaceutics (New),https://www.shl.com/products/product-catalog/view/pharmaceutics-new/,True,False,K
+4112,Pharmacology (New),https://www.shl.com/products/product-catalog/view/pharmacology-new/,True,False,K
+4042,Polymer Engineering (New),https://www.shl.com/products/product-catalog/view/polymer-engineering-new/,True,False,K
+4118,Power Electronics and Drives (New),https://www.shl.com/products/product-catalog/view/power-electronics-and-drives-new/,True,False,K
+4117,Power System Engineering (New),https://www.shl.com/products/product-catalog/view/power-system-engineering-new/,True,False,K
+4095,Prism (New),https://www.shl.com/products/product-catalog/view/prism-new/,True,False,K
+4121,Production and Industrial Engineering (New),https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/,True,False,K
+4120,Production Engineering (New),https://www.shl.com/products/product-catalog/view/production-engineering-new/,True,False,K
+219,Programming Concepts,https://www.shl.com/products/product-catalog/view/programming-concepts/,True,True,K
+3769,Project Management (2013),https://www.shl.com/products/product-catalog/view/project-management-2013/,True,True,K
+393,Proofreading v1,https://www.shl.com/products/product-catalog/view/proofreading-v1/,True,False,K
+4123,Python (New),https://www.shl.com/products/product-catalog/view/python-new/,True,False,K
+4124,R Programming (New),https://www.shl.com/products/product-catalog/view/r-programming-new/,True,False,K
+4177,ReactJS (New),https://www.shl.com/products/product-catalog/view/reactjs-new/,True,False,K
+3472,Reading Comprehension - English v1,https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/,True,True,A
+543,Reading Comprehension - Spanish v1,https://www.shl.com/products/product-catalog/view/reading-comprehension-spanish-v1/,True,True,A
+3942,Reading Comprehension v2,https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/,True,True,A
+4204,RemoteWorkQ,https://www.shl.com/products/product-catalog/view/remoteworkq/,True,False,C
+4202,RemoteWorkQ Manager Report,https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/,True,False,C
+4126,RESTful Web Services (New),https://www.shl.com/products/product-catalog/view/restful-web-services-new/,True,False,K
+4203,RemoteWorkQ Participant Report,https://www.shl.com/products/product-catalog/view/remoteworkq-participant-report/,True,False,C
+697,Retail Sales and Service Simulation,https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/,True,False,"A, B, K, S"
+395,Reviewing Forms - US (R1),https://www.shl.com/products/product-catalog/view/reviewing-forms-us-r1/,True,False,K
+4129,Ruby (New),https://www.shl.com/products/product-catalog/view/ruby-new/,True,False,K
+4128,Ruby on Rails (New),https://www.shl.com/products/product-catalog/view/ruby-on-rails-new/,True,False,K
+3932,Sales & Service Phone Simulation,https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/,True,False,"B, S"
+3930,Sales & Service Phone Solution,https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/,True,False,"B, P, S"
+726,Sales Interview Guide,https://www.shl.com/products/product-catalog/view/sales-interview-guide/,True,False,P
+725,Sales Profiler Cards,https://www.shl.com/products/product-catalog/view/sales-profiler-cards/,True,False,P
+4230,Sales Transformation 1.0 - Individual Contributor,https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/,True,False,P
+4283,Sales Transformation 2.0 - Individual Contributor,https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/,True,False,P
+4131,SAP ABAP (Advanced Level) (New),https://www.shl.com/products/product-catalog/view/sap-abap-advanced-level-new/,True,False,K
+4132,SAP ABAP (Intermediate Level) (New),https://www.shl.com/products/product-catalog/view/sap-abap-intermediate-level-new/,True,False,K
+4134,SAP BW (Business Warehouse) (New),https://www.shl.com/products/product-catalog/view/sap-bw-business-warehouse-new/,True,False,K
+4133,SAP Basis (New),https://www.shl.com/products/product-catalog/view/sap-basis-new/,True,False,K
+4136,SAP Business Objects WebI (New),https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/,True,False,K
+4135,SAP HCM (Human Capital Management) (New),https://www.shl.com/products/product-catalog/view/sap-hcm-human-capital-management-new/,True,False,K
+4082,SAP Hybris (New),https://www.shl.com/products/product-catalog/view/sap-hybris-new/,True,False,K
+4137,SAP Materials Management (New),https://www.shl.com/products/product-catalog/view/sap-materials-management-new/,True,False,K
+4064,SAP SD (Sales and Distribution) (New),https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/,True,False,K
+4233,Sales Transformation Report 1.0 - Sales Manager,https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/,True,False,P
+4288,Sales Transformation Report 2.0 - Sales Manager,https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/,True,False,P
+4130,Salesforce Development (New),https://www.shl.com/products/product-catalog/view/salesforce-development-new/,True,False,K
+3968,SHL Verify Interactive - Inductive Reasoning,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/,True,True,"A, S"
+3971,SHL Verify Interactive G+,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/,True,True,A
+3972,SHL Verify Interactive Numerical Calculation,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-calculation/,True,True,A
+3947,SHL Verify Interactive – Deductive Reasoning,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/,True,True,"A, S"
+3946,SHL Verify Interactive – Numerical Reasoning,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/,True,True,"A, S"
+4171,Search Engine Optimization (New),https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/,True,False,K
+4138,Selenium (New),https://www.shl.com/products/product-catalog/view/selenium-new/,True,False,K
+4140,Shell Scripting (New),https://www.shl.com/products/product-catalog/view/shell-scripting-new/,True,False,K
+4141,Siebel Development (New),https://www.shl.com/products/product-catalog/view/siebel-development-new/,True,False,K
+4209,Smart Interview Live,https://www.shl.com/products/product-catalog/view/smart-interview-live/,True,False,P
+4218,Smart Interview Live Coding,https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/,True,False,K
+4205,Smart Interview On Demand,https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/,True,False,P
+4144,SQL (New),https://www.shl.com/products/product-catalog/view/sql-new/,True,False,K
+4035,SQL Server (New),https://www.shl.com/products/product-catalog/view/sql-server-new/,True,False,K
+4282,SQL Server Analysis Services (SSAS) (New),https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/,True,False,K
+4146,SQL Server Integration Services (SSIS) (New),https://www.shl.com/products/product-catalog/view/sql-server-integration-services-ssis-new/,True,False,K
+4147,SQL Server Reporting Services (SSRS) (New),https://www.shl.com/products/product-catalog/view/sql-server-reporting-services-ssrs-new/,True,False,K
+4014,Social Media (New),https://www.shl.com/products/product-catalog/view/social-media-new/,True,False,K
+116,Software Business Analysis,https://www.shl.com/products/product-catalog/view/software-business-analysis/,True,True,K
+4142,SonarQube (New),https://www.shl.com/products/product-catalog/view/sonarqube-new/,True,False,K
+4051,Spelling (U.S.) (New),https://www.shl.com/products/product-catalog/view/spelling-u-s-new/,True,False,K
+4143,Spring (New),https://www.shl.com/products/product-catalog/view/spring-new/,True,False,K
+3996,Statistical Analysis System (New),https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/,True,False,K
+4216,SVAR - Spoken English (AUS),https://www.shl.com/products/product-catalog/view/svar-spoken-english-aus/,True,False,S
+3986,SVAR - Spoken English (Indian Accent) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-english-indian-accent-new/,True,False,S
+4217,SVAR - Spoken English (U.K.),https://www.shl.com/products/product-catalog/view/svar-spoken-english-u-k/,True,False,S
+3987,SVAR - Spoken English (US) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-english-us-new/,True,False,S
+4197,SVAR - Spoken French (Canadian) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-french-canadian-new/,True,False,S
+4198,SVAR - Spoken French (European) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-french-european-new/,True,False,S
+4199,SVAR - Spoken Spanish (Castilian) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-spanish-castilian-new/,True,False,S
+4200,SVAR - Spoken Spanish (North American) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-spanish-north-american-new/,True,False,S
+4151,Struts (New),https://www.shl.com/products/product-catalog/view/struts-new/,True,False,K
+4049,Swing (New),https://www.shl.com/products/product-catalog/view/swing-new/,True,False,K
+4079,Tableau (New),https://www.shl.com/products/product-catalog/view/tableau-new/,True,False,K
+4020,Telecommunications Engineering (New),https://www.shl.com/products/product-catalog/view/telecommunications-engineering-new/,True,False,K
+4167,Teradata Development (New),https://www.shl.com/products/product-catalog/view/teradata-development-new/,True,False,K
+336,Training Development,https://www.shl.com/products/product-catalog/view/training-development/,True,True,K
+4201,Typing (New),https://www.shl.com/products/product-catalog/view/typing-new/,True,False,S
+4172,UNIX (New),https://www.shl.com/products/product-catalog/view/unix-new/,True,False,K
+4175,UiPath RPA Development (New),https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/,True,False,K
+735,Universal Competency Framework Interview Guide,https://www.shl.com/products/product-catalog/view/universal-competency-framework-interview-guide/,True,False,"C, P"
+734,Universal Competency Framework Job profiling guide,https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/,True,False,"C, P"
+733,Universal Competency Framework Profiler Cards (44),https://www.shl.com/products/product-catalog/view/universal-competency-framework-profiler-cards-44/,True,False,"C, P"
+4173,VB.NET (New),https://www.shl.com/products/product-catalog/view/vb-net-new/,True,False,K
+3733,Verify - Deductive Reasoning,https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/,True,True,A
+3941,Verify - Following Instructions,https://www.shl.com/products/product-catalog/view/verify-following-instructions/,True,False,A
+3908,Verify - G+,https://www.shl.com/products/product-catalog/view/verify-g/,True,True,A
+3734,Verify - General Ability Screen,https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/,True,True,A
+3836,Verify - Inductive Reasoning (2014),https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014/,True,True,A
+3745,Verify - Numerical Ability,https://www.shl.com/products/product-catalog/view/verify-numerical-ability/,True,True,A
+3768,Verify - Technical Checking - Next Generation,https://www.shl.com/products/product-catalog/view/verify-technical-checking-next-generation/,True,False,A
+3906,Verify - Verbal Ability - Next Generation,https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/,True,True,A
+3940,Verify - Working with Information,https://www.shl.com/products/product-catalog/view/verify-working-with-information/,True,False,A
+3945,Verify G+ - Ability Test Report,https://www.shl.com/products/product-catalog/view/verify-g-ability-test-report/,True,False,A
+3970,Verify G+ - Candidate Report,https://www.shl.com/products/product-catalog/view/verify-g-candidate-report/,True,False,A
+3969,Verify Interactive Ability Report,https://www.shl.com/products/product-catalog/view/verify-interactive-ability-report/,True,False,A
+3976,Verify Interactive G+ Candidate Report,https://www.shl.com/products/product-catalog/view/verify-interactive-g-candidate-report/,True,False,A
+3974,Verify Interactive G+ Report,https://www.shl.com/products/product-catalog/view/verify-interactive-g-report/,True,False,A
+4164,VLSI and Embedded Systems (New),https://www.shl.com/products/product-catalog/view/vlsi-and-embedded-systems-new/,True,False,K
+4290,Verify Interactive Process Monitoring,https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/,True,False,A
+4215,Virtual Assessment and Development Centers,https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/,True,False,P
+4163,Visual Basic for Applications (New),https://www.shl.com/products/product-catalog/view/visual-basic-for-applications-new/,True,False,K
+399,Visual Comparison - UK,https://www.shl.com/products/product-catalog/view/visual-comparison-uk/,True,False,K
+400,Visual Comparison - US,https://www.shl.com/products/product-catalog/view/visual-comparison-us/,True,False,K
+3459,What Is The Value - US,https://www.shl.com/products/product-catalog/view/what-is-the-value-us/,True,True,K
+3991,Workplace Administration Skills (New),https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/,True,False,K
+4068,Workplace Health and Safety (New),https://www.shl.com/products/product-catalog/view/workplace-health-and-safety-new/,True,False,K
+4183,WriteX - Email Writing (Customer Service) (New),https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/,True,False,S
+4184,WriteX - Email Writing (Managerial) (New),https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/,True,False,S
+4185,WriteX - Email Writing (Sales) (New),https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/,True,False,"B, S"
+4297,360 Digital Report,https://www.shl.com/products/product-catalog/view/360-digital-report/,True,False,D
+744,360° Multi-Rater Feedback System (MFS),https://www.shl.com/products/product-catalog/view/360-multi-rater-feedback-system-mfs/,True,False,"D, P"
+17,Written English v1,https://www.shl.com/products/product-catalog/view/written-english-v1/,True,True,K
+18,Written Spanish,https://www.shl.com/products/product-catalog/view/written-spanish/,True,True,K
+4166,Zabbix (New),https://www.shl.com/products/product-catalog/view/zabbix-new/,True,False,K
